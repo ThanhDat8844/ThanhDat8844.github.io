@@ -1,0 +1,52 @@
+
+    * {
+        box-sizing: border-box;
+    }
+    @media only screen and (min-width: 992px){
+      .jumbotron {
+        background-image: url("../images/canh-dep-nam-dinh-banner.jpg");
+        height: 600px;
+        background-size: 100% 100%;
+        margin:0px;
+        background-repeat: no-repeat;
+        color: #fff;
+        padding: 100px 25px;
+        font-family: Montserrat, sans-serif;
+        }
+        }
+    .navbar {
+    margin-bottom: 0px;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  .jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+  }
+    .bg-grey {
+        background-color: #f6f6f6;
+      }
+    footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    }
+    

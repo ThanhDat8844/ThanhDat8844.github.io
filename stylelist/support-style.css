@@ -1,0 +1,27 @@
+* {
+        box-sizing: border-box;
+    }
+    body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+   .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+    .carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #ffffff!important;
+  }
+  @media (max-width: 768px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  .bg-3 { 
+    background-color: #f6f6f6;
+    color: #555555;
+  }
